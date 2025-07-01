@@ -1,0 +1,27 @@
+/* h1 {
+color: red;
+background-color: black;
+}
+body {
+    background-color: rgb(255, 0, 195);
+}
+button{
+    background-color: chartreuse;
+    color: black;
+}
+.head{
+    background-color: black;
+}
+#1{
+    background-color: aqua;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    visibility: hidden;
+} */
