@@ -1,0 +1,12 @@
+h1{
+    color: green;
+}
+button{
+    width: 50px;
+    height: 20px;
+    color:white;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 30px;
+
+}
