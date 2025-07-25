@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Registration Form</h2>
+    <form onsubmit="return form()">
+        <label for="fn">Full Name:</label>
+        <input type="text" name="fn" id="fn">
+        <span id="name"></span>
+        <br><br>
+        <label for="gen">Gender:</label>
+        <input type="radio" name="gender" id="m">
+        <label for="gen">Male</label>
+        <input type="radio" name="gender" id="f">
+        <label for="gen">Female</label>
+        <span id="name"></span>
+
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <span id="name"></span>
+
+        <br><br>
+        <label for="skill">Skills:</label>
+        <input type="checkbox" name="skill" id="skill">
+        <label for="skill">C</label>
+        <input type="checkbox" name="skill" id="skill">
+        <label for="skill">C++</label>
+        <input type="checkbox" name="skill" id="skill">
+        <label for="skill">Java</label>
+        <span id="name"></span>
+
+        <br><br>
+        <label for="city">City:</label>
+        <select name="city" id="city">
+            <option value="select city">Select City</option>
+            <option value="Varanasi">Varanasi</option>
+            <option value="Ghazipur">Ghazipur</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <span id="name"></span>
+
+
+        <br><br><input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <script src="Registration.js"></script>
+</body>
+
+</html>
